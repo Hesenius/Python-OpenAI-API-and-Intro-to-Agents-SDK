@@ -25,7 +25,6 @@ dependencies:
   - graphviz        # Graphviz executable for Agents SDK graph visualizations
   - python-graphviz # Python bindings for Graphviz
   - pytest          # 03-01 Codex app demos
-  - sounddevice     # microphone recording for voice agent demo
   - pip
   - pip:
     - "openai>=1.0"           # core OpenAI Python client
@@ -35,3 +34,4 @@ dependencies:
     - "playsound3"            # audio playback (01-02-speech)
     - "playwright"            # browser automation (02-05-07)
     - "pydantic"              # structured outputs and MCP tool parameter metadata
+    - "sounddevice"           # microphone recording for voice agent demo
