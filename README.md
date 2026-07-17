@@ -1,10 +1,10 @@
-# Python OpenAI API, Agents SDK & the Codex App: A Code-Intensive Intro
+# OpenAI Python API, Agents SDK & the Codex App: A Code-Intensive Intro
 
 In this course, I present:
 
 * OpenAI APIs via the official OpenAI Python SDK
 * OpenAI Agents SDK
-* OpenAI Codex app using Python and JupyterLab
+* OpenAI Codex app (now part of the ChatGPT app)
 
 This is a **presentation-only course**, but many attendees like to run examples in parallel. If you run into software issues during class, I will not have time to debug them live, but I am happy to help after class. E-mail me at paul@deitel.com.
 
@@ -39,13 +39,13 @@ Alternative:
 
 **Note**  
 * I tested the demos with Python 3.14
-* AI assessments by OpenAI's Codex and Anthropic's Claude Code indicated that most examples should work with Python 3.10 or higher, but **I did not confirm**.
+* AI assessments by OpenAI's Codex and Anthropic's Claude Code indicated that most examples should work with Python 3.10 or higher, but **I did not confirm this**.
 
-### OpenAI Codex Desktop App
+### OpenAI ChatGPT Desktop App (now includes Codex)
 
 Download and run the installer:
 
-> https://developers.openai.com/codex/app
+> https://learn.chatgpt.com/docs/app
 
 I used the default installation settings.
 
@@ -53,12 +53,12 @@ I used the default installation settings.
 
 Graphviz is used for Agents SDK graph visualizations.
 
-* Anaconda setup installs Graphviz automatically.
+* **My Anaconda-based setup installs Graphviz automatically.**
 * If you use `pip`/`venv`, install [Graphviz](https://graphviz.org/download/) separately and make sure the `dot` executable is on your `PATH`.
 
 ### Internet Access
 
-OpenAI APIs are online web services, so the API examples require Internet access. The Codex app also requires Internet access.
+OpenAI APIs are online web services, so the API examples require Internet access. Codex also requires Internet access.
 
 ---
 
